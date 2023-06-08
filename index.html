@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Zoo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Planet Zoo</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-zoologico" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o zoológico
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#atracoes" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossas atrações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-zoologico">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/Carousel/entrada.jpg" alt="Foto da entrada do zoológico" class="w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/Carousel/espaco-interno.webp" alt="Espaço interno do zoológico" class="w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/Carousel/bosque-zoo.jpg" alt="Foto do bosque zoo" class="w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/Carousel/espaco-interno.webp" class="d-block w-100 rounded" alt="Foto do espaço interno do zoológico">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre o <span class="text-colored">Zoológico</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo soluta quasi impedit animi! Praesentium deleniti dolorem distinctio id enim animi quibusdam odit, dolore, sunt debitis in! Praesentium facilis laboriosam fugit!
+                            </p>
+                            <h3 class="section-title">Sobre o <span class="text-colored">Espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptates consectetur cupiditate! Dolores consectetur quos quod nemo ullam qui, quo nihil, tenetur perspiciatis temporibus illum vero officiis. Impedit, cupiditate unde.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas as <span class="text-colored">ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/familia.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i> <!-- bi = bootstrap icon -->
+                            Família
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis officia, eos, beatae reiciendis quibusdam suscipit a quod quia tenetur animi cumque culpa. Dicta, earum praesentium nisi maiores rem commodi? Architecto?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção para festas
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis officia, eos, beatae reiciendis quibusdam suscipit a quod quia tenetur animi cumque culpa. Dicta, earum praesentium nisi maiores rem commodi? Architecto?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/confra.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis officia, eos, beatae reiciendis quibusdam suscipit a quod quia tenetur animi cumque culpa. Dicta, earum praesentium nisi maiores rem commodi? Architecto?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="atracoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossas <span class="text-colored">atrações</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-atracoes">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#felinos" class="fw-bold text-start nav-link text-colored active">Felinos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#peixes" class="fw-bold text-start nav-link text-colored">Peixes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#herbivoros" class="fw-bold text-start nav-link text-colored">Herbívoros</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mamiferos" class="fw-bold text-start nav-link text-colored">Mamíferos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aves" class="fw-bold text-start nav-link text-colored">Aves</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="felinos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/felinos/leao.jpg" alt="Leão" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Leão</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/felinos/lobo.jpg" alt="Lobo" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Lobo</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/felinos/raposa.jpg" alt="Raposa" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Raposa</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/felinos/tigre.jpg" alt="Tigre" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Tigre</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/felinos/urso-polar.jpg" alt="Urso Polar" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Urso Polar</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="peixes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/peixes/peixe1.jpg" alt="Peixe" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Peixe</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/peixes/peixe2.jpg" alt="Peixe" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Peixe</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div> 
+                                    <div class="col-md-3">
+                                        <img src="./images/peixes/peixe3.jpg" alt="Peixe" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Peixe</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div> 
+                                    <div class="col-md-3">
+                                        <img src="./images/peixes/peixe4.jpg" alt="Peixe" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Peixe</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div> 
+                                    <div class="col-md-3">
+                                        <img src="./images/peixes/peixe5.jpg" alt="Peixe" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Peixe</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="herbivoros">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/herbivoros/canguru.jpg" alt="Canguru" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Canguru</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/herbivoros/cervo.jpg" alt="Cervo" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Cervo</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/herbivoros/coelho.jpg" alt="Coelho" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Coelho</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/herbivoros/elefante.jpg" alt="Elefante" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Elefante</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>  
+                                    <div class="col-md-3">
+                                        <img src="./images/herbivoros/ovelhas.jpg" alt="Ovelhas" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Ovelhas</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mamiferos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/mamiferos/coala.jpg" alt="Coala" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Coala</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/mamiferos/girafas.jpg" alt="Girafas" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Girafas</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/mamiferos/golfinho.jpg" alt="Golfinho" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Golfinho</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/mamiferos/lêmure.jpg" alt="Lêmure" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Lêmure</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/mamiferos/porco-espinho.jpg" alt="Porco-Espinho" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Porco-Espinho</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aves">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/aves/cinzel.jpg" alt="Cinzel" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Cinzel</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/aves/cisne.jpg" alt="Cisne" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Cisne</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/aves/coruja.jpg" alt="Coruja" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Coruja</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/aves/martim-pescador.jpg" alt="Martim-pescador" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Martim-pescador</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/aves/papagaio.jpg" alt="Papagaio" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Papagaio</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n° 145, Bairro Bootstrap - São Paulo, SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
